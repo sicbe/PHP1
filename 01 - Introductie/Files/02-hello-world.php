@@ -10,6 +10,8 @@
  * 
  */
 
+$mijn_tekst = "<p>Dit is mijn tekst</p>";
+
 ?><!doctype html>
 <html lang="en">
 <head>
@@ -20,9 +22,11 @@
   <?php 
 
   // 1. Oplossing hieronder
+  print "<p>Hello world!</p>";
 
   // 2. Oplossing hieronder
-
+  print $mijn_tekst;
+  
    ?>
 </body>
 </html>
